@@ -14,6 +14,7 @@ if __name__ == '__main__':
     loc = 'C:/Users/jaramos/PycharmProjects/pythonProject/Clases/Excel/Test.xlsx'
     datos = RadExcelFile(loc).Read()
     print(datos)
+    print(datos)
     microstrategy.mstr().CargaCubo(datos)
 
     from os import listdir
